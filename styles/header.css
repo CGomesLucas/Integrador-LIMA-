@@ -10,6 +10,7 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 40px;
+    padding: 0 130px;
 }
 
 #nav_logo {

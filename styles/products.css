@@ -1,0 +1,119 @@
+/* PRODUCTS SECTION */
+#products {
+    width: 100%;
+    padding: 80px 130px;
+    background-color: #F9F9F9;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #B10F2E;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border: 1px solid #B10F2E;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 307px;
+    height: 467px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.product-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 16px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.product-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px 0;
+    flex: 1;
+}
+
+.product-features li {
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    padding-left: 18px;
+    position: relative;
+}
+
+.product-features li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #B10F2E;
+    font-weight: bold;
+}
+
+.product-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.product-buttons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.product-button {
+    background-color: #B10F2E;
+    color: #F9F9F9;
+    border: none;
+    width: 143px;
+    height: 44px;
+    border-radius: 8px;
+}
+
+.product-button:hover {
+    background-color: #990D28;
+}
