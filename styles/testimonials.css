@@ -35,8 +35,6 @@
     flex-direction: column;
     gap: 16px;
     width: 320px;
-    height: 300px;
-    overflow: hidden;
 }
 
 .testimonial-header {
@@ -101,11 +99,6 @@
     font-size: 16px;
     color: #666666;
     line-height: 1.5;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
 }
 
 .testimonials-pagination {

@@ -1,0 +1,128 @@
+#footer {
+    width: 100%;
+    background-color: #232323;
+    padding: 48px 130px 40px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+}
+
+.footer-logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo img {
+    width: 230px;
+    height: auto;
+    display: block;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 88px;
+}
+
+.footer-nav a {
+    color: #F9F9F9;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #F6AE2D;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.social-link {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1;
+    text-decoration: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-link:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+}
+
+.social-facebook,
+.social-linkedin {
+    background-color: #1877F2;
+}
+
+.social-twitter {
+    background-color: transparent;
+    color: #1DA1F2;
+    font-size: 22px;
+}
+
+.social-instagram {
+    background: linear-gradient(135deg, #FEDA75 0%, #FA7E1E 25%, #D62976 50%, #962FBF 75%, #4F5BD5 100%);
+    color: #141301;
+    font-size: 14px;
+}
+
+.social-linkedin {
+    font-size: 12px;
+}
+
+.footer-copy {
+    color: #F9F9F9;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+@media (max-width: 900px) {
+    #footer {
+        padding: 44px 32px 36px;
+    }
+
+    .footer-nav {
+        gap: 32px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 520px) {
+    .footer-content {
+        gap: 28px;
+    }
+
+    .footer-logo img {
+        width: 190px;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .footer-copy {
+        text-align: center;
+    }
+}
